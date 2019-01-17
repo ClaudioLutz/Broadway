@@ -1,8 +1,76 @@
-body {
-  font-family: Helvetica
+html {
+  font-family: helvetica;
 }
 
-.topbg {
+#fontsize1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+#fontsize2 {
+  font-size: 18px;
+  color: white;
+}
+
+#fontsize3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.fontsize4 {
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.fontsize5 {
+  font-size: 14px
+}
+
+#fontsize6 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white
+}
+
+#fontsize7 {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+.fontsize8 {
+  color: white;
+  font-size: 11px;
+}
+
+#wrapper {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  overflow: hidden; /* will contain if #first is longer than #second */
+
+}
+#first {
+  width: 300px;
+  float:left; /* add this */
+
+
+}
+#second {
+  color: white;
+  font-size: 16px;
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#BackgroundImage {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  image-orientation: center;
+  background-size: cover;
+
+}
+
+#center {
   text-align: center;
 }

@@ -13,7 +13,11 @@ html {
   color: white;
 }
 
-#fontsize3 {
+a {
+  color: white
+}
+
+.fontsize3 {
   font-size: 32px;
   font-weight: bold;
 }
